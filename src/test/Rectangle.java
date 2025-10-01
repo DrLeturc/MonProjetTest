@@ -34,9 +34,6 @@ public class Rectangle {
         return largeur * hauteur;
     }
 
-    public void afficher() {
-        System.out.println("Largeur = " + largeur + ", Hauteur = " + hauteur);
-    }
 
     public static void main(String[] args) {
         Rectangle r = new Rectangle(10, 5);
